@@ -1,0 +1,86 @@
+.projectCard {
+    display: inline-block;
+    box-sizing: border-box;
+    
+    margin: 1rem 2rem;
+    padding: 0.5rem 1rem;
+
+    width: 420px;
+    height: 300px;
+
+    background: #ffffff;
+    border: 1px solid #010101;
+    border-radius: 20px;  
+}
+@media screen and (max-width:700px) {
+    .projectCard{
+        width: 18rem;
+        height: 14rem;
+
+        margin: 1rem 0rem;
+        padding: 0.2rem;
+    }
+}
+.projectImg {
+    width: 390px;
+    height: 180px;
+    
+    position: relative;
+    top: 1rem;
+}
+@media screen and (max-width:700px) {
+    .projectImg{
+        width: 260px;
+        height: 140px;
+        left: 0.8rem;
+    }
+}
+.projectTitle {
+    position: relative;
+    background: none;
+    margin: 1.2rem 1rem;
+    width: 380px;
+    height: 29px;
+    
+    font-family: 'Bruno Ace';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: left;
+     
+    color: #090808;
+    
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width:700px) {
+    .projectTitle{
+        font-size: 14px;
+        text-shadow: none;
+        font-style: bold;
+        word-wrap: break-word;
+        width: fit-content;
+    }
+}
+.links{
+    width: 100%;
+    height: 30px;
+    background: transparent;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+
+    font-size: 28px;
+}
+@media screen and (max-width:700px) {
+    .links{
+        font-size: 18px;
+        position: relative;
+        top: -2rem;
+    }
+}
+.links a{
+    background: none;
+    margin: 0rem 1rem;
+}

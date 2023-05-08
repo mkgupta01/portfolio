@@ -1,0 +1,18 @@
+.footer{
+    position: fixed;
+    bottom: 0rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    background: #fa8815;
+    color: antiquewhite;
+    width: 100vw;
+    height: 1rem;
+    font-size: 14px;
+}
+@media screen and (max-width: 700px) {
+    .footer{
+        visibility: hidden;
+    }
+}

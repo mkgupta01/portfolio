@@ -1,0 +1,37 @@
+.projects-containner {
+    position: absolute;
+    top: 4rem;
+
+    margin: auto;
+    padding: 1rem 2rem;
+
+    animation: projectCardAnimation 2s;
+}
+@keyframes projectCardAnimation {
+    0% { width: 80vw; }
+    100% { width: 99vw; }
+}
+@media screen and (max-width:700px){
+    .projects-containner{
+        max-width: 100vw;
+    
+        top: 4rem;
+        padding: 0.2rem;
+        margin: 0rem ;
+    }
+}
+.projects-flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.projects-heading {
+    color: #fa8815;
+    text-align: center;
+}
+@media screen and (max-width:700px){
+    .projects-heading{
+        font-size: 24px;
+    }
+}
