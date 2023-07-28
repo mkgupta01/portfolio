@@ -7,6 +7,7 @@ import RollTheDice from '../../assest/projects/RollTheDice.png'
 import OurForgottenHero from '../../assest/projects/OurForgottenHero.png'
 import DCMS from '../../assest/projects/DCMS.png'
 import ReactCalculator from '../../assest/projects/react-calculator.png'
+import ReactTodoList from '../../assest/projects/todolist.png'
 
 const projectsList = [
     {
@@ -43,12 +44,20 @@ const projectsList = [
         title: "Dance-Class-Management-Software",
         githubLink: "https://github.com/mkgupta01/Dance-Class-Management-Software",
         liveLink: null
-    },{
+    },
+    {
         slno: 6,
         img: ReactCalculator,
         title: "React Calculator",
         githubLink: "https://github.com/mkgupta01/React-Calculator",
-        liveLink: "https://react-calculator-8lxr.vercel.app/"
+        liveLink: "https://react-calculator-one-silk.vercel.app/"
+    },
+    {
+        slno: 7,
+        img: ReactTodoList,
+        title: "React TODO LIST",
+        githubLink: "https://github.com/mkgupta01/TODO-LIST",
+        liveLink: "https://todo-list-pied-psi.vercel.app/"
     }
 ]
 
