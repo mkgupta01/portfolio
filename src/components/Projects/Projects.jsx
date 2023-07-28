@@ -6,6 +6,7 @@ import ShoppingAPP from '../../assest/projects/ShoppingApp.png'
 import RollTheDice from '../../assest/projects/RollTheDice.png'
 import OurForgottenHero from '../../assest/projects/OurForgottenHero.png'
 import DCMS from '../../assest/projects/DCMS.png'
+import ReactCalculator from '../../assest/projects/react-calculator.png'
 
 const projectsList = [
     {
@@ -42,6 +43,12 @@ const projectsList = [
         title: "Dance-Class-Management-Software",
         githubLink: "https://github.com/mkgupta01/Dance-Class-Management-Software",
         liveLink: null
+    },{
+        slno: 6,
+        img: ReactCalculator,
+        title: "React Calculator",
+        githubLink: "https://github.com/mkgupta01/React-Calculator",
+        liveLink: "https://react-calculator-8lxr.vercel.app/"
     }
 ]
 
