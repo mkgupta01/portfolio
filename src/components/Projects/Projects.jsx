@@ -28,53 +28,53 @@ const projectsList = [
     },
     {
         slno: 3,
-        img: API_Usage,
-        title: "Api Usage",
-        githubLink: "https://github.com/mkgupta01/API_usage",
-        liveLink: "https://mkgupta01.github.io/API_usage/"
-    },
-    {
-        slno: 4,
-        img: ShoppingAPP,
-        title: "Shopping App",
-        githubLink: "https://github.com/mkgupta01/Shopping",
-        liveLink: "https://shopping-black.vercel.app/"
-    },
-    {
-        slno: 5,
-        img: RollTheDice,
-        title: "Roll The Dice",
-        githubLink: "https://github.com/mkgupta01/RollDice",
-        liveLink: "https://mkgupta01.github.io/RollDice/"
-    },
-    {
-        slno: 6,
-        img: OurForgottenHero,
-        title: "Our Forgotten Hero",
-        githubLink: "https://github.com/mkgupta01/Our-Forgotten-Heros",
-        liveLink: "https://our-forgotten-heros.vercel.app/"
-    },
-    {
-        slno: 7,
-        img: DCMS,
-        title: "Dance-Class-Management-Software",
-        githubLink: "https://github.com/mkgupta01/Dance-Class-Management-Software",
-        liveLink: null
-    },
-    {
-        slno: 8,
         img: ReactCalculator,
         title: "React Calculator",
         githubLink: "https://github.com/mkgupta01/React-Calculator",
         liveLink: "https://react-calculator-one-silk.vercel.app/"
     },
     {
-        slno: 9,
+        slno: 4,
+        img: API_Usage,
+        title: "Api Usage",
+        githubLink: "https://github.com/mkgupta01/API_usage",
+        liveLink: "https://mkgupta01.github.io/API_usage/"
+    },
+    {
+        slno: 5,
         img: ReactTodoList,
         title: "React TODO LIST",
         githubLink: "https://github.com/mkgupta01/TODO-LIST",
         liveLink: "https://todo-list-pied-psi.vercel.app/"
-    }
+    },
+    {
+        slno: 6,
+        img: RollTheDice,
+        title: "Roll The Dice",
+        githubLink: "https://github.com/mkgupta01/RollDice",
+        liveLink: "https://mkgupta01.github.io/RollDice/"
+    },
+    {
+        slno: 7,
+        img: ShoppingAPP,
+        title: "Shopping App",
+        githubLink: "https://github.com/mkgupta01/Shopping",
+        liveLink: "https://shopping-black.vercel.app/"
+    },
+    {
+        slno: 8,
+        img: OurForgottenHero,
+        title: "Our Forgotten Hero",
+        githubLink: "https://github.com/mkgupta01/Our-Forgotten-Heros",
+        liveLink: "https://our-forgotten-heros.vercel.app/"
+    },
+    {
+        slno: 9,
+        img: DCMS,
+        title: "Management-Software",
+        githubLink: "https://github.com/mkgupta01/Dance-Class-Management-Software",
+        liveLink: null
+    } 
 ]
 
 function Projects() {
