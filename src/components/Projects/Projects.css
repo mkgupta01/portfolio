@@ -5,7 +5,7 @@
     margin: auto;
     padding: 1rem 2rem;
 
-    animation: projectCardAnimation 2s;
+    animation: projectCardAnimation 1s;
 }
 @keyframes projectCardAnimation {
     0% { width: 80vw; }
