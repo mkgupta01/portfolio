@@ -1,12 +1,12 @@
 .footer{
     position: fixed;
     bottom: 0rem;
-    margin: 0;
+    margin: 2rem;
     padding: 0;
     text-align: center;
 
-    background: #fa8815;
-    color: antiquewhite;
+    background: none;
+    color: #fa8815;
     width: 100vw;
     height: 1rem;
     font-size: 14px;

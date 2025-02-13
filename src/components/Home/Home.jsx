@@ -1,15 +1,20 @@
 import './Home.css'
 import Socials from './Socials/Socials';
-import devPhoto from '../../assest/devImg.jpg'
+import Sparkle from '../../assest/sparkle.png'
 
 function Home() {
     return (
         <div className="home">
-            <img src= { devPhoto } alt="" className="devPhoto" />
             <div className="devInfo">
                 <h1 className="devName">Mayank Kumar Gupta</h1>
-                <span className="devBio">A 3rd year graduate passionate about tech.</span>
+                <span className="devBio">MERN Stack Developer</span>
             </div>
+
+            <a href='https://github.com/mkgupta01/FinVue' id='star1' >
+                <img className='star' src={Sparkle} alt="" />
+                <span>FinVue</span>
+            </a>
+
             <Socials />
         </div>
     )

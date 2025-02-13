@@ -8,7 +8,7 @@ function Header(){
     return(
         <>
         <div className={ isNavbar ? "navbarExpanded" : "navbar" }>
-            <img src= { logo } alt="logo" className="logo" />
+        <div class="GeneratedText">MK Gupta</div>
                 <ul className='header'> 
                     <li><a href="/">Home</a></li>
                     <li><a href="/projects">Projects</a></li>
